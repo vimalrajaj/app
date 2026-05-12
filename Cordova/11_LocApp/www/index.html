@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align: center; padding-top: 50px; font-family: sans-serif;">
+    <h1>My Location</h1>
+    <p id="out">Fetching location...</p>
+    <button onclick="location.reload()" style="padding: 10px;">Refresh</button>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script>
+        document.addEventListener('deviceready', () => {
+            navigator.geolocation.getCurrentPosition((pos) => {
+                document.getElementById('out').innerHTML = "LAT: " + pos.coords.latitude;
+            }, (e) => { 
+                document.getElementById('out').innerHTML = "Error: " + e.message; 
+            });
+        }, false);
+    </script>
+</body>
+</html> 
