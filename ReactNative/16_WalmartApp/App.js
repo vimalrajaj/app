@@ -1,3 +1,9 @@
+/*
+How to Execute:
+1. Open terminal in this project folder.
+2. Run: npx expo start
+3. Press 'w' for Web or 'a' for Emulator.
+*/
 import React from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 

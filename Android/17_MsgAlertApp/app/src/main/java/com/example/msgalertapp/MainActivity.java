@@ -1,3 +1,8 @@
+/*
+How to Execute:
+1. Open this Android project folder in Android Studio.
+2. Click the green "Run" arrow in the top toolbar.
+*/
 package com.example.msgalertapp;
 
 import android.os.Bundle;
