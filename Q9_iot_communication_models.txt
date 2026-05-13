@@ -1,5 +1,0 @@
-# IoT Communication Models
-1. Device-to-Device Communication Model: Direct communication between IoT devices using Bluetooth, Zigbee, etc.
-2. Device-to-Cloud Communication Model: Devices connect directly to an internet cloud service for data exchange.
-3. Device-to-Gateway Model: Devices connect to an intermediate gateway device that bridges to the cloud.
-4. Back-End Data-Sharing Model: Export and analyze smart object data from a cloud service.

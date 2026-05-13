@@ -1,6 +1,0 @@
-# Integration of Sensors and Actuators with Arduino
-1. Identify sensor/actuator specifications (voltage, current, signal type)
-2. Design appropriate interface circuit (voltage dividers, pull-up/down resistors)
-3. Write Arduino code for reading/controlling
-4. Implement processing logic
-5. Create feedback loop if required
